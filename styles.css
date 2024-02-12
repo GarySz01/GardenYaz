@@ -51,6 +51,11 @@ body {
   align-items: center;
 }
 
+.header-list li a {
+  text-decoration: none;
+  color: black;
+}
+
 .header-img {
   display: flex;
   gap: 15px;
@@ -69,7 +74,7 @@ body {
 
 .main-div img {
   width: 100%;
-  height: 35rem;
+  height: 36rem;
 }
 
 .main-div h1 {
@@ -80,4 +85,115 @@ body {
   color: white;
   font-size: 35px;
   font-weight: 600;
+}
+
+.categories {
+  width: 100%;
+  padding: 3%;
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+
+.categories-macetas {
+  width: 400px;
+  height: 450px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  gap: 45px;
+}
+
+.categories-macetas h2 {
+  text-align: center;
+  color: brown;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.categories-macetas img {
+  width: 55%;
+}
+
+.categories-macetas input {
+  font-size: 18px;
+  font-size: 600;
+  background: none;
+  padding: 3px;
+  background-color: brown;
+  color: white;
+  width: 35%;
+  cursor: pointer;
+}
+
+.categories-plantas {
+  width: 400px;
+  height: 450px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  gap: 45px;
+}
+
+.categories-plantas h2 {
+  text-align: center;
+  color: brown;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.categories-plantas img {
+  width: 43%;
+}
+
+.categories-plantas input {
+  font-size: 18px;
+  font-size: 600;
+  background: none;
+  padding: 3px;
+  background-color: brown;
+  color: white;
+  width: 35%;
+  cursor: pointer;
+}
+
+.categories-sustrato {
+  width: 400px;
+  height: 450px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  gap: 45px;
+}
+
+.categories-sustrato h2 {
+  text-align: center;
+  color: brown;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.categories-sustrato img {
+  width: 55%;
+}
+
+.categories-sustrato input {
+  background: none;
+  font-size: 18px;
+  font-size: 600;
+  color: white;
+  padding: 3px;
+  align-items: center;
+  background-color: brown;
+  width: 35%;
+  cursor: pointer;
 }
