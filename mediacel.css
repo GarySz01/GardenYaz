@@ -1,0 +1,41 @@
+@media (max-width: 480px) {
+  .header-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .header-list {
+    width: 60%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 15%;
+  }
+
+  .header-list ul {
+    display: none;
+  }
+
+  input:checked ~ ul {
+    display: block;
+  }
+
+  input {
+    display: none;
+  }
+
+  li {
+    display: block;
+    background-color: gray;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .perfil {
+    width: 30%;
+  }
+
+  .header-img {
+    /* gap: 0px; */
+  }
+}
